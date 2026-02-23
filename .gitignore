@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+env/
+bin/
+obj/
+
+# Data and Models (Essential for ML)
+# It's better to store large data elsewhere or use DVC
+data/
+*.csv
+*.xlsx
+*.h5
+*.pkl
+*.pth
+*.onnx
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDEs and Editors
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and outputs
+logs/
+*.log
+results/
+figures/
